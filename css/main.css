@@ -1,0 +1,65 @@
+body{
+    margin:0;
+}
+
+.stage{
+    width: 300px;
+    height: 50px;
+    position: fixed;
+}
+
+.stage>img{
+  position: fixed;
+}
+
+#stage1{
+    z-index: 1;
+    background-image: url("../images/300x50_SWCSummerTT_H5_NV_ROT_FunPass---English_0000s_0003_Layer-8.png");
+}
+
+#stage2{
+    z-index: 2;
+    background-image: url("../images/300x50_SWCSummerTT_H5_NV_ROT_FunPass---English_0001s_0002_TT1.png");
+    animation-delay: 4.0s;
+    animation-duration: 2.0s;
+}
+
+#stage3{
+    z-index: 3;
+    background-image: url("../images/300x50_SWCSummerTT_H5_NV_ROT_FunPass---English_0002s_0003__SeaWorld.-Restrictions-Apply..png");
+    animation-delay: 7.5s;
+    animation-duration: 2.0s;
+}
+
+.im1{
+    animation-delay: .5s;
+    animation-duration: 2.5s;
+}
+.im2{
+    animation-delay: .8s;
+    animation-duration: 2.5s;
+}
+.im3{
+    animation-delay: 1.3s;
+    animation-duration: 2.0s;
+}
+.im4{
+    animation-delay: 4.3s;
+    animation-duration: 2.0s;
+}
+.im5{
+    animation-delay: 5.3s;
+    animation-duration: 2.0s;
+}
+.im6{
+    animation-delay: 7.3s;
+    animation-duration: 2.0s;
+}
+.im7{
+    animation-delay: 8.3s;
+    animation-duration: 2.0s;
+}
+.im8{
+    animation-delay: 9.3s;
+    animation-duration: 2.0s;
+}
